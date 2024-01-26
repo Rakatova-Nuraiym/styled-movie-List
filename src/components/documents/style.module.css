@@ -1,0 +1,90 @@
+.mainCard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+}
+.mainCard img {
+  width: 260px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px 0 black;
+}
+
+.inputs {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 15px 0 white;
+  margin: 30px;
+  background: #aa8016;
+  color: white;
+}
+
+.inputs:hover {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10px 0 black;
+  margin: 30px;
+  /* background: hsl(43, 96%, 33%); */
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  font-weight: 400;
+}
+.select {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px 0 white;
+  margin: 30px;
+}
+
+button {
+  width: 50px;
+  height: 30px;
+  background: #00ff00;
+  border: none;
+  border-radius: 12px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+button:hover {
+  width: 50px;
+  height: 30px;
+  background: #00ff00;
+  border: none;
+  border-radius: 12px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.delte {
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px 0 white;
+  background: hsl(0, 100%, 50%);
+}
+.delte:hover {
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px 0 red;
+  background: hsl(0, 100%, 50%);
+  
+}
+
+h2 {
+  text-align: center;
+  width: 130px;
+  border-radius: 10px;
+  color: hsl(43, 88%, 40%);
+  border: 1px solid black;
+  box-shadow: 0 0 10px 0 black;
+}
